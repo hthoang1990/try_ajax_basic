@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:20px;
+	font-size:12px;
+}
+.list{
+	width:500px;
+	padding:10px;
+	list-style:none;
+	box-shadow:0 0 2px 1px #ccc;
+	background:#FFF;
+	float:left;
+	margin:20px;
+}
+.list > li{
+	float:left;
+	width:480px;
+	border-bottom:1px dotted #F2F2F2;
+	padding:10px;
+	margin:10px 0;
+}
+.list > li > h3{
+	float:left;
+}
+.list > li > span{
+	float:right;
+	padding:5px 15px;
+	background:#666;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:3px;
+	border:1px solid #FFF;
+}
+.list > li:hover{
+	background:#F7F7F7;
+}
+.list > li:hover > h3{
+	color:#C00;
+}
+.list > li > span:hover{
+	cursor:pointer;
+	color:#CCC;
+	background:#333;
+	transition:all 200ms ease-in 200ms;
+}
+.btn{
+	padding:5px 10px;
+	background:#000;
+	color:#FFF;
+	font-weight:bold;
+	border:1px solid #fff;
+	border-radius:3px;
+	float:left;
+	margin:20px 10px 10px 10px;
+	cursor:pointer;
+}
