@@ -5,7 +5,7 @@
 <title>Try Ajax Basic</title>
 <link rel="stylesheet" href="css/style.css" />
 <script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/global.js"></script>
+<script src="js/app.js"></script>
 </head>
 <body>
 	<h1>Try Ajax Basic</h1>
@@ -26,8 +26,8 @@
     <ul class="list" id="result-list">
     </ul>
     <div style="clear:both;"></div>
-    <div class="btn" id="list-1">getList 1</div>
-    <div class="btn" id="list-2">getList 2</div>
+    <div class="btn" id="list-1" data-role="ajax-loading" data-act="list-1">getList 1</div>
+    <div class="btn" id="list-2" data-role="ajax-loading" data-act="list-2">getList 2</div>
     <div style="clear:both;"></div>
     <p>
     	<h3>- Click button getList</h3>
